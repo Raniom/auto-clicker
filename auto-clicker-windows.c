@@ -91,7 +91,7 @@ void menu() {
                 */
 
             /*case 4:
-                 ... 
+                ... 
                  */
             case 5:
                 printf("\033[36m - Press \033[35mF4\033[36m to START, \033[35mF5\033[36m to STOP.\n");
@@ -111,10 +111,6 @@ void menu() {
                                     }
                                 }
                             }
-                            switch (choice) {,
-                                case 6:
-                                    printf("Exiting...\n");
-                                    return;}
                             Sleep(100);
                         }
                         break;

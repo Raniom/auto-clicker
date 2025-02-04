@@ -46,6 +46,7 @@ A simple auto-clicker for Windows that simulates mouse clicks at a user-defined 
 #include <stdlib.h>
 #include <string.h>
 #include <windows.h>
+#include "keymap.h"
 
 #define DEFAULT_START_KEY VK_F4
 #define DEFAULT_STOP_KEY VK_F5
@@ -82,6 +83,7 @@ void menu() {
 
     while (1) {
         system("cls");
+
         printf(
             "\t- [1] Set click interval (current: %.2f sec)\n"
             "\t- [2] Choose click type (current: %s)\n"
@@ -137,10 +139,6 @@ void menu() {
                                     }
                                 }
                             }
-                            switch (choice) {,
-                                case 6:
-                                    printf("Exiting...\n");
-                                    return;}
                             Sleep(100);
                         }
                         break;
