@@ -1,0 +1,5 @@
+#define IDI_APP_ICON 101
+#define ID_EDIT_INTERVAL 3
+#define ID_COMBO_CLICK_TYPE 4
+#define ID_KEY_EDIT 5
+#define KEY_TOGGLE 6

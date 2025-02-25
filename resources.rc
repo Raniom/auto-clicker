@@ -1,0 +1,4 @@
+#include "clicker.h"
+#include "windows.h"
+
+IDI_APP_ICON ICON DISCARDABLE "favicon.ico"
