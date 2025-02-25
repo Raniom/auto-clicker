@@ -1,6 +1,8 @@
 # Auto Clicker
 
-![Auto Clicker](https://img.shields.io/badge/AutoClicker-v1.6-blue.svg) ![Licence](https://img.shields.io/github/license/Raniom/auto-clicker)![Dernière MAJ](https://img.shields.io/github/last-commit/Raniom/auto-clicker)![Langage Principal](https://img.shields.io/github/languages/top/Raniom/auto-clicker)![Nombre de Langages](https://img.shields.io/github/languages/count/Raniom/auto-clicker)![Repo Size](https://img.shields.io/github/repo-size/Raniom/auto-clicker)
+![Auto Clicker](https://img.shields.io/badge/AutoClicker-v1.6-blue.svg) ![Licence](https://img.shields.io/github/license/Raniom/auto-clicker) ![Dernière MAJ](https://img.shields.io/github/last-commit/Raniom/auto-clicker)
+
+![Langage Principal](https://img.shields.io/github/languages/top/Raniom/auto-clicker) ![Nombre de Langages](https://img.shields.io/github/languages/count/Raniom/auto-clicker) ![Repo Size](https://img.shields.io/github/repo-size/Raniom/auto-clicker)
 
 A simple auto-clicker for Windows that simulates mouse clicks at a user-defined frequency.
 
@@ -19,13 +21,9 @@ A simple auto-clicker for Windows that simulates mouse clicks at a user-defined 
 
 1. **Compile the program** (Windows only, requires MinGW)
 
-```windres resources.rc -O coff -o resources.o
+`windres resources.rc -O coff -o resources.o`
 
-```
-
-```gcc -o AutoClicker.exe main.c resources.o -mwindows
-
-```
+`gcc -o AutoClicker.exe main.c resources.o -mwindows`
 
 2. **Or copy the .exe**
 
