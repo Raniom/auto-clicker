@@ -21,9 +21,13 @@ A simple auto-clicker for Windows that simulates mouse clicks at a user-defined 
 
 1. **Compile the program** (Windows only, requires MinGW)
 
-`windres resources.rc -O coff -o resources.o`
+```bash
+windres resources.rc -O coff -o resources.o
+```
 
-`gcc -o AutoClicker.exe main.c resources.o -mwindows`
+```bash
+gcc -o AutoClicker.exe main.c resources.o -mwindows
+```
 
 2. **Or copy the .exe**
 
